@@ -1,5 +1,10 @@
 "# NTI-Project" 
- 
+
+## Admin mail : root@admin.com 
+## Admin password : 123456789 
+## you can only sign up as company or standard user form Signup link in login form
+
+
 # Geology to people Project
 
 

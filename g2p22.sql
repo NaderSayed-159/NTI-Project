@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 24, 2021 at 02:02 AM
+-- Generation Time: Jul 24, 2021 at 02:26 AM
 -- Server version: 10.4.19-MariaDB
 -- PHP Version: 8.0.7
 
@@ -249,13 +249,13 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `phone`, `gender`, `user_type`) VALUES
 (1, 'Nader bauomi', 'nadersayed001@gmail.com', '2bc92bfef16f612ffac1dbefcb4aab47b0016062', 1099412326, 'male', 1),
 (26, 'rehab bauom', 'rehabsayed001@gmail.com', 'd135b5130cd6b446693ecb1cfe81e3721f66079f', 1283165508, 'female', 2),
-(49, 'nadersayed001@gmail.comss', 'nadered001@gmail.com', 'ecbe290409f004b10ee3cd360d27e1bc4f358f5b', 1099412886, 'male', 1),
 (55, 'nadersayed0', 'nadersay@gmail.com', 'beed8d5dbfe66bc625d3b733abff0036dcd4a7f9', 1099411326, 'female', 3),
 (56, 'rawan khouder', 'rkhouder@gmail.com', 'dd108f601142a1e57f402a97fa9ae8dbef8af333', 1112365466, 'female', 1),
 (58, 'rawan nasser', 'rawan@gmail.com', '316e876288a1ade387b62cee77e68f30c5a51a46', 1016139685, 'female', 2),
 (59, 'nader', 'nader@gmail.com', '123456789', 1113279567, 'male', 3),
 (60, 'naders', 'delking90@gmail.com', 'f7c3bc1d808e04732adf679965ccc34ca7ae3441', 1113275667, 'male', 3),
-(61, 'nader', 'nase@gmail.com', '2bc92bfef16f612ffac1dbefcb4aab47b0016062', 1113269576, 'male', 3);
+(61, 'nader', 'nase@gmail.com', '2bc92bfef16f612ffac1dbefcb4aab47b0016062', 1113269576, 'male', 3),
+(62, 'root', 'root@admin.com', 'f7c3bc1d808e04732adf679965ccc34ca7ae3441', 1111111111, 'male', 1);
 
 -- --------------------------------------------------------
 
@@ -523,7 +523,7 @@ ALTER TABLE `q_answers`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=62;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=63;
 
 --
 -- AUTO_INCREMENT for table `userstypes`
